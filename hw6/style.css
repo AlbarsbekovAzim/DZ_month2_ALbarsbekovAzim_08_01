@@ -1,0 +1,112 @@
+body {
+    background-color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in_container {
+    border: 5px solid white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 90vh;
+}
+.count {
+    font-size: 100px;
+    color: white;
+}
+.plus {
+    background-color: #333;
+    font-size: 50px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.minus {
+    background-color: #333;
+    font-size: 50px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.stepen_2 {
+    background-color: #333;
+    font-size: 50px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.reset {
+    background-color: #333;
+    font-size: 25px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.plus_minus_container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.stepen_reset_container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.plus:hover {
+    font-size: 50px;
+    color: #000;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.minus:hover {
+    font-size: 50px;
+    color: #000;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.stepen_2:hover {
+    font-size: 50px;
+    color: #000;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.reset:hover {
+    font-size: 25px;
+    color: #000;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
